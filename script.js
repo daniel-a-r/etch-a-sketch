@@ -77,8 +77,7 @@ function createTile(gridSize, mode) {
             randomizeRGBTile(tile);
             break;
         case 'Darken':
-            tile.style.backgroundColor = 'rgba(0, 0, 0, 0)'
-            addTileEventListener(tile, darkenTile);
+            darkenTile(tile);
             break;
     }
 
