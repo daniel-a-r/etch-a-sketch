@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .container {
@@ -31,8 +32,8 @@ button:hover {
 
 .grid {
     display: flex;
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     border: 1px solid black;
     flex-wrap: wrap;
     margin-top: 1.5rem;
